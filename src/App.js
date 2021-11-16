@@ -1,8 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 import Header from './components/Header'
 import Bio from './components/bio'
+import Resume from './components/resume'
+import Projects from './components/projects'
+import data from './data/projectlist.json'
+
+// var dataStr = JSON.stringify(data);
+// var myProjects = JSON.parse(dataStr);
 
 function App() {
   return (
@@ -23,6 +29,8 @@ function App() {
       </header> */}
       <Header/>
       <Bio/>
+      <Resume/>
+      <Projects items={data}/>
 
 
     </div>
