@@ -1,59 +1,66 @@
 {
 	"projects": [
 		{
-			"title": "butterfly album data visualization",
-			"info": "javascript, p5.js",
-			"writeup": "my friends and i could only be at uncommonhacks @ uchicago for about 5 hours...so we made a (poorly) sound-controlled game of pong.",
+			"title": "butterfly albums",
+			"info": "javascript, d3.js, react.js, python, idyll",
+			"writeup": "a data visualization of 200+ Northwestern students' favorite albums as butterflies. Collaboration with Esther Whang.",
 			"url": "https://uncommonestpong.appspot.com/",
 			"image": "soundpong.gif"
 		},
 		{
-			"title": "reminders: 别忘记了",
-			"info": "javascript, html5 canvas",
-			"writeup": "inspired by a subtle asian traits post about things asian parents say or do instead of saying \"i love you.\" text was initially 3d shapes generated with three.js, but i realized it was overkill so text is now rendered on an html5 canvas.",
+			"title": "Civic Eagle (summer 21 internship)",
+			"info": "python, spatula, open states api; react.js",
+			"writeup": "API maintenance and implementation, added to open source legislative data for 100+ clients",
 			"url": "https://jrw192.github.io/reminders/",
 			"image": "reminders.png"
 		},
 		{
-			"title": "particle simulation with random movement",
-			"info": "webgl, three.js, javascript, a lot of math i probably should have already known",
-			"writeup": "given a particle count and a speed factor, particles will move in a randomly generated path. three.js to generate the particles, pure js for the random movement algorithm. not sure why i made this.",
+			"title": "MSP430 Kidpix v1 & v2",
+			"info": "msp430, python; javascript, p5.js",
+			"writeup": "my own recreation of the freedom, chaos, and delight of KidPix",
 			"url": "https://jrw192.github.io/particlebois/",
 			"image": "particlebois.gif"
 		},
 		{
-			"title": "just some shapes",
+			"title": "Knight Lab on Twitch",
 			"info": "playing around with webgl, three.js and javascript",
 			"writeup": "first run of three.js and first foray into computer graphics. click and drag on website to view different angles.",
 			"url": "https://jrw192.github.io/graffix/",
 			"image": "shapez.gif"
 		},
 		{
-			"title": "jodie ruodi wei: my personal website",
+			"title": "a prototyped Twitch channel for journalists during peak of COVID",
 			"info": "javascript, react.js, html/css",
 			"writeup": "yup",
 			"url": "https://jodieruodiwei.herokuapp.com/",
 			"image": "website.png"
 		},
 		{
-			"title": "paint4me: an online painting app",
-			"info": "javascript, react.js, html5 canvas",
-			"writeup" : "i was bored and wanted to make something cute.",
+			"title": "a visual essay on art program funding",
+			"info": "javascript, p5.js",
+			"writeup" : "an essay about why art education is so so important",
 			"url": "http://paint4me.herokuapp.com/",
 			"image": "paint4me.png"
 		},
 		{
-			"title": "news article analyzer: sentiment analysis using ibm watson",
-			"info": "watson api, natural language understanding, team hacking",
-			"writeup": "during my internship at ibm, we got to participate in a hackathon with access to various ibm watson apis. we decided to analyze a body of text based on sentiment and keywords. my role in the team was server-side programming, including handling api calls and responses, and returning data to the frontend.",
+			"title": "monster mashup",
+			"info": "javascript, p5.js",
+			"writeup": "exploration into different particle movement according to user input (with a monster theme, of course)",
 			"url": "",
 			"image": "nlu_ibm.png"
 		},
 		
 		{
-			"title": "mealhop: a food ordering coordinater for your chat group",
-			"info": "javascript, cisco spark api, our very first hackathon",
-			"writeup": "i participated in my first hackathon in 2017 with two friends. we wanted to utilize the cisco spark api to create a simple project that we could comfortably finish within 36 hours, so we built a chat bot for cisco spark that allowed groups to coordinate lunch orders. this was our first real experience with javascript, and it was a very fun but also educational experience.",
+			"title": "cat tracker",
+			"info": "react native, caesar api",
+			"writeup": "app to encourage the stressed-out college student to allow flexibility in course scheduling",
+			"url": "",
+			"image": "mealhop.png"
+		},
+        {
+			"title": "lighthouse (summer 20 internship)",
+			"info": "angular js, ionic, firebase, figma",
+			"writeup": "startup work for encouraging users to make deep connections: design system for mind maps across subjects",
 			"url": "",
 			"image": "mealhop.png"
 		}

@@ -1,4 +1,5 @@
 import Project from './project'
+import '../App.css';
 
 import React, { Component } from 'react'
 
@@ -25,20 +26,6 @@ export default class Projects extends Component {
         super(props)
     }
     render() {
-
-        // props: object containing properties passed from parent to child component
-        // const dataList = this.props.items.projects.map((project) => (
-        //     <div><Project key={project.id} 
-        //     projectTitle={project.title}
-        //     projectInfo={project.info} 
-        //     projectLink={project.url}
-        //     projectImg={project.image}
-        //     projectWriteup={project.writeup}
-        //     ></Project></div>
-
-        // //     // console.log({project.title})
-        // )
-        // );
         const dataList = this.props.items.projects.map((project) => (
 			<div><Project key={project.id} 
 							projectTitle={project.title}
