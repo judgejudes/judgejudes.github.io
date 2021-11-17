@@ -27,7 +27,7 @@ export default class Header extends Component {
                 <div style={code}>code ∩ culture (and finding
                     <span className="order"> order </span>
                     in
-                    <span style={{ color: this.props.chaosColor, fontSize: this.props.chaosSize }}
+                    <span style={{ color: this.props.chaosColor, fontSize: this.props.chaosSize}}
                         onMouseOver={this.props.hoverFunc}
                         onClick={this.props.chaosModeOn}> chaos</span>)</div>
             </div>

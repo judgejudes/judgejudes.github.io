@@ -108,6 +108,11 @@
    /* justify-content: space-between; */
 }
 
+.fun-links {
+  text-decoration: underline wavy purple;
+  color: purple;
+}
+
 *{
   -ms-overflow-style: none;
 }
@@ -115,10 +120,10 @@
   display: none;
 }
 
-a:link {
+/* a:link {
   text-decoration: underline wavy red;
   color: red
-}
+} */
 
 @keyframes App-logo-spin {
   from {

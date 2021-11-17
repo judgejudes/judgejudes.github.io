@@ -33,9 +33,11 @@ export default class Project extends Component {
     render() {
 
         // console.log('what', this.props.projectTitle)
+
+        // <a href="https://judyontheinter.com/art">drawings</a>
         return (
             <div className="project">
-                <h3 className='proj-title'>{this.props.projectTitle}</h3>
+                <a href={this.props.projectLink} className='proj-title'>{this.props.projectTitle}</a>
                 <div style={{marginTop: 10}}>{this.props.projectInfo}</div>
                 <div className="project-flex">
                     <p>{this.props.projectWriteup}</p>
