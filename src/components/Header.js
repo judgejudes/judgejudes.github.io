@@ -14,19 +14,25 @@ const name = {
 
 const code = {
     // color: '#F38888',
+    margin: 10,
     fontSize: 20,
 }
 
 export default class Header extends Component {
     render() {
         return (
-        <div style={headerStyle} className="header">
-        <div style={name}>judy suhjung lee</div>
-            
-            <div style={code}>code XX culture (and finding order in <span style={{color: this.props.chaosColor}} onMouseOver={this.props.hoverFunc}>chaos</span>)</div>
-        </div>
-        
+            <div style={headerStyle} className="header">
+                <div style={name}>judy suhjung lee</div>
+
+                <div style={code}>code ∩ culture (and finding
+                    <span className="order"> order </span>
+                    in
+                    <span style={{ color: this.props.chaosColor, fontSize: this.props.chaosSize }}
+                        onMouseOver={this.props.hoverFunc}
+                        onClick={this.props.chaosModeOn}> chaos</span>)</div>
+            </div>
+
         )
-        
+
     }
 }

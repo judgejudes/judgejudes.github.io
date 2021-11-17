@@ -37,7 +37,7 @@ export default class Projects extends Component {
             // <div>{project.info}</div>
 			)
 		);
-        console.log('hello', dataList)
+        // console.log('hello', dataList)
         return (
             // <div style={{}}></div>
             // console.log(dataList)

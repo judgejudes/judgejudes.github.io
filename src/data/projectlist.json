@@ -8,22 +8,22 @@
 			"image": "butterflies.png"
 		},
 		{
-			"title": "Civic Eagle (summer 21 internship)",
+			"title": "Civic Eagle (summer 21)",
 			"info": "python, spatula, open states api; react.js",
 			"writeup": "API maintenance and implementation, added to open source legislative data for 100+ clients",
 			"url": "https://jrw192.github.io/reminders/",
-			"image": "butterflies.png"
+			"image": "civic-eagle.png"
 		},
 		{
 			"title": "MSP430 Kidpix v1 & v2",
 			"info": "msp430, python; javascript, p5.js",
 			"writeup": "my own recreation of the freedom, chaos, and delight of KidPix",
 			"url": "https://jrw192.github.io/particlebois/",
-			"image": "butterflies.png"
+			"image": "drawing-tool.gif"
 		},
 		{
 			"title": "Knight Lab on Twitch",
-			"info": "twitch, mural",
+			"info": "twitch, mural, obs, streamlabs, discord",
 			"writeup": "first run of three.js and first foray into computer graphics. click and drag on website to view different angles.",
 			"url": "https://jrw192.github.io/graffix/",
 			"image": "butterflies.png"
@@ -31,14 +31,14 @@
 		{
 			"title": "this website",
 			"info": "javascript, react.js, html/css",
-			"writeup": "you're looking right at it!",
+			"writeup": "you're looking right at it! made with ❤️ ❤️ ❤️ ❤️ ❤️",
 			"url": "https://jodieruodiwei.herokuapp.com/",
 			"image": "butterflies.png"
 		},
 		{
 			"title": "a visual essay on art program funding",
 			"info": "javascript, p5.js",
-			"writeup" : "an essay about why art education is so so important",
+			"writeup" : "an essay about why art education is so so important--i owe so much to my art teachers, and will forever be grateful to them",
 			"url": "http://paint4me.herokuapp.com/",
 			"image": "butterflies.png"
 		},
@@ -58,7 +58,7 @@
 			"image": "butterflies.png"
 		},
         {
-			"title": "lighthouse (summer 20 internship)",
+			"title": "lighthouse (summer 20)",
 			"info": "angular js, ionic, firebase, figma",
 			"writeup": "startup work for encouraging users to make deep connections: design system for mind maps across subjects",
 			"url": "",
