@@ -26,7 +26,7 @@
   font-weight: 500;
   margin-bottom: 0;
   font-style: italic;
-  text-decoration: underline;
+  text-decoration: underline wavy #F38888;
   font-size: 25px;
 }
 
@@ -87,6 +87,10 @@
   gap: 10px;
 }
 
+.fun-stuff {
+  text-align: left;
+}
+
 .project-flex {
   display: flex;
   flex-direction: row;
@@ -109,6 +113,11 @@
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+a:link {
+  text-decoration: underline wavy red;
+  color: red
 }
 
 @keyframes App-logo-spin {

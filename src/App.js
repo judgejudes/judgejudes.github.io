@@ -37,6 +37,9 @@ class App extends Component {
     while (newColor === this.state.chaosColor)
       newColor = colors[Math.floor(Math.random() * colors.length)];
     let newSize = Math.floor(Math.random() * 200)
+    if (newSize < 5) {
+      newSize = 6
+    }
     // console.log('new colo is ', newColor)
 
     this.setState({

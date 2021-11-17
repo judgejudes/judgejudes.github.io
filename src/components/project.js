@@ -36,7 +36,7 @@ export default class Project extends Component {
         return (
             <div className="project">
                 <h3 className='proj-title'>{this.props.projectTitle}</h3>
-                <span>{this.props.projectInfo}</span>
+                <div style={{marginTop: 10}}>{this.props.projectInfo}</div>
                 <div className="project-flex">
                     <p>{this.props.projectWriteup}</p>
                     <img src={require(`../data/${this.props.projectImg}`).default}

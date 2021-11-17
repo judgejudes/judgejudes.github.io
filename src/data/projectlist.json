@@ -5,7 +5,7 @@
 			"info": "javascript, d3.js, react.js, python, idyll",
 			"writeup": "a data visualization of 200+ Northwestern students' favorite albums as butterflies. Collaboration with Esther Whang.",
 			"url": "https://uncommonestpong.appspot.com/",
-			"image": "butterflies.png"
+			"image": "butterfly.gif"
 		},
 		{
 			"title": "Civic Eagle (summer 21)",
@@ -24,30 +24,30 @@
 		{
 			"title": "Knight Lab on Twitch",
 			"info": "twitch, mural, obs, streamlabs, discord",
-			"writeup": "first run of three.js and first foray into computer graphics. click and drag on website to view different angles.",
+			"writeup": "a prototyped Twitch channel centered around journalism during the peak of COVID--reached affiliate status!",
 			"url": "https://jrw192.github.io/graffix/",
-			"image": "butterflies.png"
+			"image": "knight-lab.png"
 		},
 		{
 			"title": "this website",
 			"info": "javascript, react.js, html/css",
-			"writeup": "you're looking right at it! made with ❤️ ❤️ ❤️ ❤️ ❤️",
+			"writeup": "you're looking right at it! made with ❤️ ❤️ ❤️ ❤️ ❤️, and as authentically as I could!",
 			"url": "https://jodieruodiwei.herokuapp.com/",
-			"image": "butterflies.png"
+			"image": "website.gif"
 		},
 		{
 			"title": "a visual essay on art program funding",
 			"info": "javascript, p5.js",
-			"writeup" : "an essay about why art education is so so important--i owe so much to my art teachers, and will forever be grateful to them",
+			"writeup" : "a short essay about why art education is so so important--i owe so much to my art teachers, and will forever be grateful to them",
 			"url": "http://paint4me.herokuapp.com/",
-			"image": "butterflies.png"
+			"image": "art-essay.gif"
 		},
 		{
 			"title": "monster mashup",
 			"info": "javascript, p5.js",
 			"writeup": "exploration into different particle movement according to user input (with a monster theme, of course)",
 			"url": "",
-			"image": "butterflies.png"
+			"image": "monster.gif"
 		},
 		
 		{
@@ -55,7 +55,7 @@
 			"info": "react native, caesar api",
 			"writeup": "app to encourage the stressed-out college student to allow flexibility in course scheduling",
 			"url": "",
-			"image": "butterflies.png"
+			"image": "cattracker.gif"
 		},
         {
 			"title": "lighthouse (summer 20)",
