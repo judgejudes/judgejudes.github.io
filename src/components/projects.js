@@ -41,14 +41,12 @@ export default class Projects extends Component {
         return (
             // <div style={{}}></div>
             // console.log(dataList)
-            
-            dataList
-            // null
-            // <div>hey there {this.props.data.projects[0].title}</div>
-            // console.log(this.props.data)
-            // null
-            // <Project></Project>
-            // <Project></Project>
+            <div style={{overflowY: 'scroll',
+            height: 600, width: 800}}>
+            <h4>here are some things I made:</h4>
+            {dataList}
+
+            </div>
 
         )
 

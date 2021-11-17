@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css';
+// import '../img/bu'
 
 const headerStyle = {
     // color: '#F38888',
@@ -22,25 +23,32 @@ const code = {
 
 export default class Project extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
     }
     // componentDidMount() {
     //     console.log({this.props})
     // }
 
-    render() 
-    {
+    render() {
 
         // console.log('what', this.props.projectTitle)
         return (
-        <div style={headerStyle}>
-        <p>{this.props.projectTitle}</p>
-      
-        </div>
-        // null
-        
+            <div className="project">
+                <h3 className='proj-title'>{this.props.projectTitle}</h3>
+                <span>{this.props.projectInfo}</span>
+                <div className="project-flex">
+                    <p>{this.props.projectWriteup}</p>
+                    <img src={require(`../data/${this.props.projectImg}`).default}
+                        alt={this.props.projectTitle}
+                        className="projectImg"
+                    />
+                </div>
+
+            </div>
+            // null
+
         )
-        
+
     }
 }

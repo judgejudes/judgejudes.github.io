@@ -5,49 +5,49 @@
 			"info": "javascript, d3.js, react.js, python, idyll",
 			"writeup": "a data visualization of 200+ Northwestern students' favorite albums as butterflies. Collaboration with Esther Whang.",
 			"url": "https://uncommonestpong.appspot.com/",
-			"image": "soundpong.gif"
+			"image": "butterflies.png"
 		},
 		{
 			"title": "Civic Eagle (summer 21 internship)",
 			"info": "python, spatula, open states api; react.js",
 			"writeup": "API maintenance and implementation, added to open source legislative data for 100+ clients",
 			"url": "https://jrw192.github.io/reminders/",
-			"image": "reminders.png"
+			"image": "butterflies.png"
 		},
 		{
 			"title": "MSP430 Kidpix v1 & v2",
 			"info": "msp430, python; javascript, p5.js",
 			"writeup": "my own recreation of the freedom, chaos, and delight of KidPix",
 			"url": "https://jrw192.github.io/particlebois/",
-			"image": "particlebois.gif"
+			"image": "butterflies.png"
 		},
 		{
 			"title": "Knight Lab on Twitch",
-			"info": "playing around with webgl, three.js and javascript",
+			"info": "twitch, mural",
 			"writeup": "first run of three.js and first foray into computer graphics. click and drag on website to view different angles.",
 			"url": "https://jrw192.github.io/graffix/",
-			"image": "shapez.gif"
+			"image": "butterflies.png"
 		},
 		{
-			"title": "a prototyped Twitch channel for journalists during peak of COVID",
+			"title": "this website",
 			"info": "javascript, react.js, html/css",
-			"writeup": "yup",
+			"writeup": "you're looking right at it!",
 			"url": "https://jodieruodiwei.herokuapp.com/",
-			"image": "website.png"
+			"image": "butterflies.png"
 		},
 		{
 			"title": "a visual essay on art program funding",
 			"info": "javascript, p5.js",
 			"writeup" : "an essay about why art education is so so important",
 			"url": "http://paint4me.herokuapp.com/",
-			"image": "paint4me.png"
+			"image": "butterflies.png"
 		},
 		{
 			"title": "monster mashup",
 			"info": "javascript, p5.js",
 			"writeup": "exploration into different particle movement according to user input (with a monster theme, of course)",
 			"url": "",
-			"image": "nlu_ibm.png"
+			"image": "butterflies.png"
 		},
 		
 		{
@@ -55,14 +55,14 @@
 			"info": "react native, caesar api",
 			"writeup": "app to encourage the stressed-out college student to allow flexibility in course scheduling",
 			"url": "",
-			"image": "mealhop.png"
+			"image": "butterflies.png"
 		},
         {
 			"title": "lighthouse (summer 20 internship)",
 			"info": "angular js, ionic, firebase, figma",
 			"writeup": "startup work for encouraging users to make deep connections: design system for mind maps across subjects",
 			"url": "",
-			"image": "mealhop.png"
+			"image": "butterflies.png"
 		}
 	]
 }
