@@ -48,6 +48,14 @@ class App extends Component {
     })
   }
 
+  chaosModeOff = () => {
+    let newChaos
+    newChaos = false
+    this.setState({
+      chaosMode: newChaos
+    })
+  }
+
   chaosModeOn = () => {
     // console.log('hey')
 
@@ -69,6 +77,7 @@ class App extends Component {
       <div className="App">
 
         <Header hoverFunc={this.hoverFunc}
+        chaosModeOff={this.chaosModeOff}
           chaosModeOn={this.chaosModeOn}
           chaosColor={this.state.chaosColor}
           chaosSize={this.state.chaosSize} />

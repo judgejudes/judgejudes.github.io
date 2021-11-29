@@ -22,7 +22,8 @@ export default class Header extends Component {
     render() {
         return (
             <div style={headerStyle} className="header">
-                <div style={name}>judy suhjung lee</div>
+                <div style={name}
+                onClick={this.props.chaosModeOff}>judy suhjung lee</div>
 
                 <div style={code}>code ∩ culture (and finding
                     <span className="order"> order </span>
