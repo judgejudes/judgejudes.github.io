@@ -27,7 +27,8 @@ class App extends Component {
     this.state = {
       chaosColor: 'blue',
       chaosSize: '20',
-      chaosMode: false
+      chaosMode: false,
+      bioSize: '20',
     }
   }
 
@@ -46,6 +47,21 @@ class App extends Component {
       chaosColor: newColor,
       chaosSize: newSize,
     })
+  }
+
+  bioSizeFunc = () => {
+    console.log('bio size changing', this.props.bioSize)
+    // let newColor = colors[Math.floor(Math.random() * colors.length)];
+    // while (newColor === this.state.chaosColor)
+      // newColor = colors[Math.floor(Math.random() * colors.length)];
+    let newSize = Math.floor(Math.random() * 80)
+    // console.log('new colo is ', newColor)
+    console.log('bio size here', newSize)
+    this.setState({
+      // chaosColor: newColor,
+      bioSize: newSize,
+    })
+    console.log('bio size changing', this.props.bioSize)
   }
 
   chaosModeOff = () => {
@@ -82,7 +98,9 @@ class App extends Component {
           chaosColor={this.state.chaosColor}
           chaosSize={this.state.chaosSize} />
         <div className="wrapper">
-          <Bio chaos={this.state.chaosMode} />
+          <Bio chaos={this.state.chaosMode}
+          chaosSize={this.state.bioSize}
+          changeBioSize={this.bioSizeFunc} />
           {/* <Resume/> */}
           <Projects items={data} />
         </div>

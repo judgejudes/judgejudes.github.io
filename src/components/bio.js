@@ -6,25 +6,30 @@ import { SocialIcon } from 'react-social-icons'
 
 
 const headerStyle = {
-    // color: '#F38888',
-    // fontSize: 50,
     left: 0,
     width: 400,
     overflowY: 'scroll',
     height: 550,
     marginTop: 10,
-    // fontFamily: 'Lucida Console', monaco, monospace
-    // flexGrow: .1,
-    // flex: 1,
-    // float: 'left'
-    // flexDirection: row
-
-    // backgroundColor: 'yellow'
 }
 
 const code = {
     // color: '#F38888',
     fontSize: 20,
+}
+
+const testChaosSize = {
+    // color: '#F38888',
+    fontSize: Math.floor(Math.random() * 80),
+}
+
+let hoverFunc = () => {
+    // color: '#F38888',
+    let newSize = Math.floor(Math.random() * 200)
+    // TODO: want this number to keep changing every 4 seconds, or maybe even less?
+    this.setState({
+        chaosSize: newSize,
+      })
 }
 
 const propics = {
@@ -44,25 +49,16 @@ export default class Bio extends Component {
                 <div className="bio-flex">
                     <img style={propics} src={chaos ? winterJudy : propic} alt="judy when she just got her hair done" />
                     <div>
-                        <p style={code}>I’m (she/her) an aspiring designer, programmer, and writer based in New York. </p>
-                        <p style={code}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at Northwestern University. </p>
+                        <p style={{fontSize: chaos ? this.props.chaosSize : 20}} onMouseOver={this.props.changeBioSize}>I’m (she/her) an aspiring designer, programmer, and writer based in New York. </p>
+                        <p style={{fontSize: chaos ? this.props.chaosSize : 20}}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at Northwestern University. </p>
                     </div>
                 </div>
-                <p style={code}>I admire and make little bits of technology that help us understand our creative potential and each other.
+                <p style={{fontSize: chaos ? this.props.chaosSize : 20}} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology that help us understand our creative potential and each other.
                 </p>
-                <p style={code}>I like making and discovering--and having fun along the way. Play and joy are so important to me. <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span>
+                <p style={{fontSize: chaos ? this.props.chaosSize : 20}}>I like making and discovering--and having fun along the way. Play and joy are so important to me. <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span>
                 </p>
 
                 <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://www.w3schools.com" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
-                {/* <p style={code}>(scroll for the fun things below!) */}
-                {/* </p> */}
-                {/* have to add 'scroll for fun things below' */}
-
-                {/* <h2>Contact</h2> */}
-                {/* <h3></h3> */}
-                {/* <h3><a href="https://www.w3schools.com">are.na</a></h3> */}
-                {/* <h3><a href="https://www.w3schools.com">twitter</a></h3> */}
-
                 <p className='fun-stuff'>here are some other fun things:</p>
 
                 <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>
