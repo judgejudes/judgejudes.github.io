@@ -4,6 +4,30 @@ import propic from '../img/propic.png'
 import winterJudy from '../img/winter-judy.png'
 import { SocialIcon } from 'react-social-icons'
 
+import ImageGallery from 'react-image-gallery';
+
+
+const images = [
+    {
+      original: 'https://picsum.photos/id/1018/1000/600/',
+    //   thumbnail: 'https://picsum.photos/id/1018/250/150/',
+      originalHeight: 80,
+      originalWidth: 80
+    },
+    {
+      original: 'https://picsum.photos/id/1015/1000/600/',
+    //   thumbnail: 'https://picsum.photos/id/1015/250/150/',
+      originalHeight: 100,
+      originalWidth: 80
+    },
+    {
+      original: 'https://picsum.photos/id/1019/1000/600/',
+    //   thumbnail: 'https://picsum.photos/id/1019/250/150/',
+      originalHeight: 100,
+      originalWidth: 80
+    },
+  ];
+
 
 const headerStyle = {
     left: 0,
@@ -62,6 +86,8 @@ export default class Bio extends Component {
                 <p className='fun-stuff'>here are some other fun things:</p>
 
                 <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>
+                <ImageGallery style={{width: 20}} items={images} />
+
                 <p className='fun-stuff'><a className="fun-links" href="https://www.youtube.com/playlist?list=PL6EvsThciFxPyHfby4hFPCSXOoyUBu2MC">videos i love</a></p>
                 <p className='fun-stuff'><a className="fun-links" href="https://editor.p5js.org/judgejudes/sketches">p5.js sketches</a></p>
                 <p className='fun-stuff'><a className="fun-links" href="https://editor.p5js.org/judgejudes/sketches">a Picbreeder explainer zine</a></p>
