@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/its-me/static/css/main.f427d27a.chunk.css",
+    "main.js": "/its-me/static/js/main.954c8c42.chunk.js",
+    "main.js.map": "/its-me/static/js/main.954c8c42.chunk.js.map",
+    "runtime-main.js": "/its-me/static/js/runtime-main.1283a208.js",
+    "runtime-main.js.map": "/its-me/static/js/runtime-main.1283a208.js.map",
+    "static/js/2.355575fd.chunk.js": "/its-me/static/js/2.355575fd.chunk.js",
+    "static/js/2.355575fd.chunk.js.map": "/its-me/static/js/2.355575fd.chunk.js.map",
+    "static/js/3.893ddf62.chunk.js": "/its-me/static/js/3.893ddf62.chunk.js",
+    "static/js/3.893ddf62.chunk.js.map": "/its-me/static/js/3.893ddf62.chunk.js.map",
+    "index.html": "/its-me/index.html",
+    "static/css/main.f427d27a.chunk.css.map": "/its-me/static/css/main.f427d27a.chunk.css.map",
+    "static/js/2.355575fd.chunk.js.LICENSE.txt": "/its-me/static/js/2.355575fd.chunk.js.LICENSE.txt",
+    "static/media/art-essay.gif": "/its-me/static/media/art-essay.317362c5.gif",
+    "static/media/butterflies.png": "/its-me/static/media/butterflies.281bc3b6.png",
+    "static/media/butterfly.gif": "/its-me/static/media/butterfly.38f7f7b2.gif",
+    "static/media/cattracker.gif": "/its-me/static/media/cattracker.f237e369.gif",
+    "static/media/civic-eagle.png": "/its-me/static/media/civic-eagle.7900d656.png",
+    "static/media/drawing-tool.gif": "/its-me/static/media/drawing-tool.6c916617.gif",
+    "static/media/frog.png": "/its-me/static/media/frog.48d3b512.png",
+    "static/media/judylee_a4.gif": "/its-me/static/media/judylee_a4.59c885aa.gif",
+    "static/media/knight-lab.png": "/its-me/static/media/knight-lab.01b43a82.png",
+    "static/media/monster.gif": "/its-me/static/media/monster.59c885aa.gif",
+    "static/media/propic.7263b195.png": "/its-me/static/media/propic.7263b195.png",
+    "static/media/roo.png": "/its-me/static/media/roo.c8a3c1a8.png",
+    "static/media/sketch2.JPG": "/its-me/static/media/sketch2.83c99e57.JPG",
+    "static/media/squint.jpg": "/its-me/static/media/squint.c64b5579.jpg",
+    "static/media/tree.jpg": "/its-me/static/media/tree.dac1ccfd.jpg",
+    "static/media/website.gif": "/its-me/static/media/website.7a3bab42.gif",
+    "static/media/winter-judy.3075159b.png": "/its-me/static/media/winter-judy.3075159b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1283a208.js",
+    "static/js/2.355575fd.chunk.js",
+    "static/css/main.f427d27a.chunk.css",
+    "static/js/main.954c8c42.chunk.js"
+  ]
+}
