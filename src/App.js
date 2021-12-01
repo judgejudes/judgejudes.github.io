@@ -5,7 +5,13 @@ import Header from './components/Header'
 import Bio from './components/bio'
 import Resume from './components/resume'
 import Projects from './components/projects'
+import Animation from './components/animation'
+
+import ReactDOM from 'react-dom';
+
 import data from './data/projectlist.json'
+
+import SimpleReactLightbox from 'simple-react-lightbox'
 
 // var dataStr = JSON.stringify(data);
 // var myProjects = JSON.parse(dataStr);
@@ -53,7 +59,7 @@ class App extends Component {
     console.log('bio size changing', this.props.bioSize)
     // let newColor = colors[Math.floor(Math.random() * colors.length)];
     // while (newColor === this.state.chaosColor)
-      // newColor = colors[Math.floor(Math.random() * colors.length)];
+    // newColor = colors[Math.floor(Math.random() * colors.length)];
     let newSize = Math.floor(Math.random() * 80)
     // console.log('new colo is ', newColor)
     console.log('bio size here', newSize)
@@ -90,23 +96,29 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <SimpleReactLightbox>
 
-        <Header hoverFunc={this.hoverFunc}
-        chaosModeOff={this.chaosModeOff}
-          chaosModeOn={this.chaosModeOn}
-          chaosColor={this.state.chaosColor}
-          chaosSize={this.state.chaosSize} />
-        <div className="wrapper">
-          <Bio chaos={this.state.chaosMode}
-          chaosSize={this.state.bioSize}
-          changeBioSize={this.bioSizeFunc} />
-          {/* <Resume/> */}
-          <Projects items={data} />
+        <div className="App">
+
+          <Animation chaos={this.state.chaosMode}/>
+          <Header hoverFunc={this.hoverFunc}
+            chaosModeOff={this.chaosModeOff}
+            chaosModeOn={this.chaosModeOn}
+            chaosColor={this.state.chaosColor}
+            chaosSize={this.state.chaosSize} />
+          <div className="wrapper">
+            <Bio chaos={this.state.chaosMode}
+              chaosSize={this.state.bioSize}
+              changeBioSize={this.bioSizeFunc} />
+            {/* <Resume/> */}
+            <Projects items={data} />
+          </div>
+          {/* </Animation> */}
+
+
         </div>
+      </SimpleReactLightbox>
 
-
-      </div>
     );
   }
 }

@@ -22,15 +22,18 @@ export default class Header extends Component {
     render() {
         return (
             <div style={headerStyle} className="header">
-                <div style={name}
-                onClick={this.props.chaosModeOff}>judy suhjung lee</div>
+                <a href="#" style={{ textDecoration: 'none' }}>
+                    <div style={name}
+                        onClick={this.props.chaosModeOff}>judy suhjung lee</div>
+                </a>
 
                 <div style={code}>code ∩ culture (and finding
                     <span className="order"> order </span>
                     in
-                    <span style={{ color: this.props.chaosColor, fontSize: this.props.chaosSize}}
-                        onMouseOver={this.props.hoverFunc}
-                        onClick={this.props.chaosModeOn}> chaos</span>)</div>
+                    <a href="#" style={{ textDecoration: 'none' }}>
+                        <span style={{ color: this.props.chaosColor, fontSize: this.props.chaosSize }}
+                            onMouseOver={this.props.hoverFunc}
+                            onClick={this.props.chaosModeOn}> chaos</span>)</a></div>
             </div>
 
         )

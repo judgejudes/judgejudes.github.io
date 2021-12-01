@@ -5,35 +5,36 @@ import winterJudy from '../img/winter-judy.png'
 import { SocialIcon } from 'react-social-icons'
 
 import ImageGallery from 'react-image-gallery';
+import { SRLWrapper } from "simple-react-lightbox";
 
 
 const images = [
     {
-      original: 'https://picsum.photos/id/1018/1000/600/',
-    //   thumbnail: 'https://picsum.photos/id/1018/250/150/',
-      originalHeight: 80,
-      originalWidth: 80
+        original: 'https://picsum.photos/id/1018/1000/600/',
+        //   thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        originalHeight: 80,
+        originalWidth: 80
     },
     {
-      original: 'https://picsum.photos/id/1015/1000/600/',
-    //   thumbnail: 'https://picsum.photos/id/1015/250/150/',
-      originalHeight: 100,
-      originalWidth: 80
+        original: 'https://picsum.photos/id/1015/1000/600/',
+        //   thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        originalHeight: 100,
+        originalWidth: 80
     },
     {
-      original: 'https://picsum.photos/id/1019/1000/600/',
-    //   thumbnail: 'https://picsum.photos/id/1019/250/150/',
-      originalHeight: 100,
-      originalWidth: 80
+        original: 'https://picsum.photos/id/1019/1000/600/',
+        //   thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        originalHeight: 100,
+        originalWidth: 80
     },
-  ];
+];
 
 
 const headerStyle = {
     left: 0,
     width: 400,
     overflowY: 'scroll',
-    height: 550,
+    height: 600,
     marginTop: 10,
 }
 
@@ -53,7 +54,7 @@ let hoverFunc = () => {
     // TODO: want this number to keep changing every 4 seconds, or maybe even less?
     this.setState({
         chaosSize: newSize,
-      })
+    })
 }
 
 const propics = {
@@ -73,20 +74,41 @@ export default class Bio extends Component {
                 <div className="bio-flex">
                     <img style={propics} src={chaos ? winterJudy : propic} alt="judy when she just got her hair done" />
                     <div>
-                        <p style={{fontSize: chaos ? this.props.chaosSize : 20}} onMouseOver={this.props.changeBioSize}>I’m (she/her) an aspiring designer, programmer, and writer based in New York. </p>
-                        <p style={{fontSize: chaos ? this.props.chaosSize : 20}}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at Northwestern University. </p>
+                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I’m (she/her) an aspiring designer, programmer, and writer based in New York. </p>
+                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at Northwestern University. </p>
                     </div>
                 </div>
-                <p style={{fontSize: chaos ? this.props.chaosSize : 20}} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology that help us understand our creative potential and each other.
+                <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology that help us understand our creative potential and each other.
                 </p>
-                <p style={{fontSize: chaos ? this.props.chaosSize : 20}}>I like making and discovering--and having fun along the way. Play and joy are so important to me. <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span>
+                <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>I like making and discovering--and having fun along the way. Play and joy are so important to me. 
+                {/* <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span> */}
                 </p>
 
                 <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://www.w3schools.com" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
                 <p className='fun-stuff'>here are some other fun things:</p>
 
                 <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>
-                <ImageGallery style={{width: 20}} items={images} />
+                <SRLWrapper style={{height: 40, width: 20}}>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/squint.jpg').default} alt="Umbrella" />
+                    </a>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/tree.jpg').default} alt="Umbrella" />
+                    </a>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/.frog.png.icloud').default} alt="Umbrella" />
+                    </a>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/.roo.png.icloud').default} alt="Umbrella" />
+                    </a>
+                
+                    {/* <a className="a-img">
+                        <img className="art-img" src={require('../img/rooster.png').default} alt="Umbrella" />
+                    </a> */}
+                </SRLWrapper>
+
+
+                {/* <ImageGallery style={{ width: 20 }} items={images} /> */}
 
                 <p className='fun-stuff'><a className="fun-links" href="https://www.youtube.com/playlist?list=PL6EvsThciFxPyHfby4hFPCSXOoyUBu2MC">videos i love</a></p>
                 <p className='fun-stuff'><a className="fun-links" href="https://editor.p5js.org/judgejudes/sketches">p5.js sketches</a></p>
