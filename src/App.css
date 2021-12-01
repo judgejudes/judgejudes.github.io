@@ -16,6 +16,11 @@
     opacity: 0.4;
 }
 
+.a-tag {
+  text-decoration: none;
+  color: #4E2A84;
+}
+
 .header {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;

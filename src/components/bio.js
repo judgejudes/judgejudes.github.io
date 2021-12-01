@@ -75,16 +75,16 @@ export default class Bio extends Component {
                     <img style={propics} src={chaos ? winterJudy : propic} alt="judy when she just got her hair done" />
                     <div>
                         <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I’m (she/her) an aspiring designer, programmer, and writer based in New York. </p>
-                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at Northwestern University. </p>
+                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at <a href="https://www.northwestern.edu/" className="a-tag"> Northwestern University </a>. </p>
                     </div>
                 </div>
-                <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology that help us understand our creative potential and each other.
+                <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology that help us understand our  💖creative potential💖 and each other.
                 </p>
                 <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>I like making and discovering--and having fun along the way. Play and joy are so important to me. 
                 {/* <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span> */}
                 </p>
 
-                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://www.w3schools.com" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
+                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1Y2zVbZWuBGQc3CB4rVyUBFD4yqa5-p6-/view?usp=sharing" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
                 <p className='fun-stuff'>here are some other fun things:</p>
 
                 <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>
@@ -115,7 +115,7 @@ export default class Bio extends Component {
 
                 <p className='fun-stuff'><a className="fun-links" href="https://www.youtube.com/playlist?list=PL6EvsThciFxPyHfby4hFPCSXOoyUBu2MC">videos i love</a></p>
                 <p className='fun-stuff'><a className="fun-links" href="https://editor.p5js.org/judgejudes/sketches">p5.js sketches</a></p>
-                <p className='fun-stuff'><a className="fun-links" href="https://editor.p5js.org/judgejudes/sketches">a Picbreeder explainer zine</a></p>
+                <p className='fun-stuff'><a className="fun-links" href="https://drive.google.com/file/d/1RX-L2koUsapYN7TsMlJZkQa6SotQbRTv/view?usp=sharing">a Picbreeder explainer zine</a></p>
 
                 <div className="links-flex">
                     <SocialIcon url="judysuhjunglee@gmail.com" network="gmail" />
