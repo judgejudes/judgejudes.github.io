@@ -90,16 +90,19 @@ export default class Bio extends Component {
                 <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>
                 <SRLWrapper style={{height: 40, width: 20}}>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/squint.jpg').default} alt="Umbrella" />
+                        <img className="art-img" src={require('../img/squint.jpg').default} alt="sketches!" />
                     </a>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/tree.jpg').default} alt="Umbrella" />
+                        <img className="art-img" src={require('../img/tree.jpg').default} alt="spoopy tree" />
                     </a>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/.frog.png.icloud').default} alt="Umbrella" />
+                        <img className="art-img" src={require('../img/sketch2.JPG').default} alt="a doodle from design class" />
                     </a>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/.roo.png.icloud').default} alt="Umbrella" />
+                        <img className="art-img" src={require('../img/frog.png').default} alt="a frog that looks like a beignet" />
+                    </a>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/roo.png').default} alt="rooster" />
                     </a>
                 
                     {/* <a className="a-img">

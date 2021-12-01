@@ -9,7 +9,8 @@ const headerStyle = {
 
 const name = {
     color: '#F38888',
-    fontSize: 50,
+    fontSize: 70,
+    margin: 10
 }
 
 const code = {
