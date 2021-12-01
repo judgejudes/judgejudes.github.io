@@ -75,7 +75,7 @@ export default class Bio extends Component {
                     <img style={propics} src={chaos ? winterJudy : propic} alt="judy when she just got her hair done" />
                     <div>
                         <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I’m (she/her) an aspiring designer, programmer, and writer based in New York. </p>
-                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at <a href="https://www.northwestern.edu/" className="a-tag"> Northwestern University </a>. </p>
+                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at <a href="https://www.northwestern.edu/" className="a-tag"> Northwestern University</a>. </p>
                     </div>
                 </div>
                 <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology that help us understand our  💖creative potential💖 and each other.
