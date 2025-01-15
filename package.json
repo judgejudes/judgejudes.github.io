@@ -30,7 +30,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "www.joodylee.com",
   "browserslist": {
     "production": [
       ">0.2%",
