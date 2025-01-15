@@ -121,13 +121,13 @@ export default class Bio extends Component {
                     <SocialIcon url="judysuhjunglee@gmail.com" network="gmail" />
                     <SocialIcon url="https://www.are.na/judy-lee" />
                     <SocialIcon url="https://github.com/judgejudes" />
-                    <SocialIcon network="twitter" url="https://twitter.com/judge_judes" bgColor="#ff5a01" />
+                    {/* <SocialIcon network="twitter" url="https://twitter.com/judge_judes" bgColor="#ff5a01" /> */}
                     <SocialIcon url="https://www.linkedin.com/in/judy-lee-3a91b3199/" />
                 </div>
                 {/* <h3><a href="https://www.w3schools.com">linkedin</a></h3> */}
-
+<div>
                 <p style={{ textAlign: 'center', fontSize: '10', fontStyle: 'italic' }}>judysuhjunglee [at] gmail [dot] com</p>
-
+                </div>
 
 
             </div>
