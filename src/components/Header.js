@@ -25,7 +25,7 @@ export default class Header extends Component {
             <div style={headerStyle} className="header">
                 <a href="#" style={{ textDecoration: 'none' }}>
                     <div style={name}
-                        onClick={this.props.chaosModeOff}>judy suhjung lee</div>
+                        onClick={this.props.chaosModeOff}>judy lee</div>
                 </a>
 
                 <div style={code}>design ∩ culture ∩ code (and finding

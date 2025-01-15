@@ -84,7 +84,7 @@ export default class Bio extends Component {
                 {/* <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span> */}
                 </p>
 
-                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1yjs7AVnkuofjlx9elvaurLLateSjUWbI/view" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
+                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1Kdd9Hf28FMLrfSFYoc2wensfnK9m9m4W/view" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
                 <p className='fun-stuff'>here are some other fun things:</p>
 
                 <p className='fun-stuff fun-links'>drawings</p>
