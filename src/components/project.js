@@ -41,10 +41,10 @@ export default class Project extends Component {
                 <div style={{marginTop: 10}}>{this.props.projectInfo}</div>
                 <div className="project-flex">
                     <p>{this.props.projectWriteup}</p>
-                    <img src={require(`../data/${this.props.projectImg}`).default}
+                    {this.props.projectImg && <img src={require(`../data/${this.props.projectImg}`)}
                         alt={this.props.projectTitle}
                         className="projectImg"
-                    />
+                    /> }
                 </div>
 
             </div>
