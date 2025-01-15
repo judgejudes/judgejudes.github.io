@@ -43,7 +43,7 @@ export default class Projects extends Component {
             // console.log(dataList)
             <div style={{overflowY: 'scroll',
             height: 600, width: 800}}>
-            <h4>here are some things I made:</h4>
+            <h4>here are some things I made (scroll down!):</h4>
             {dataList}
 
             </div>

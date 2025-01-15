@@ -74,17 +74,17 @@ export default class Bio extends Component {
                 <div className="bio-flex">
                     <img style={propics} src={chaos ? winterJudy : propic} alt="judy when she just got her hair done" />
                     <div>
-                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I’m (she/her) an aspiring designer, programmer, and writer based in New York. </p>
-                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>Currently, I’m a senior studying {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at <a href="https://www.northwestern.edu/" className="a-tag"> Northwestern University</a>. </p>
+                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I’m (she/her) an aspiring designer, software engineer, and writer based in New York. </p>
+                        <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>I studied {chaos ? '🤖 beep bop 🤖' : 'computer science'} and design at <a href="https://www.northwestern.edu/" className="a-tag"> Northwestern University</a>. </p>
                     </div>
                 </div>
-                <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology that help us understand our  💖creative potential💖 and each other.
+                <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }} onMouseOver={this.props.changeBioSize}>I admire and make little bits of technology or systems (both new and old) that help us understand our  💖creative potential💖 and each other.
                 </p>
                 <p style={{ fontSize: chaos ? this.props.chaosSize : 20 }}>I like making and discovering--and having fun along the way. Play and joy are so important to me. 
                 {/* <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span> */}
                 </p>
 
-                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1Y2zVbZWuBGQc3CB4rVyUBFD4yqa5-p6-/view?usp=sharing" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
+                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1i-GIcNh6dRgkN8wyuhp3PnclpfwbpcLw/view" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
                 <p className='fun-stuff'>here are some other fun things:</p>
 
                 <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>

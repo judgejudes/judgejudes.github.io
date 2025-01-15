@@ -28,7 +28,7 @@ export default class Header extends Component {
                         onClick={this.props.chaosModeOff}>judy suhjung lee</div>
                 </a>
 
-                <div style={code}>code ∩ culture (and finding
+                <div style={code}>design ∩ culture ∩ code (and finding
                     <span className="order"> order </span>
                     in
                     <a href="#" style={{ textDecoration: 'none' }}>
