@@ -87,8 +87,20 @@ export default class Bio extends Component {
                 <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1yjs7AVnkuofjlx9elvaurLLateSjUWbI/view" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
                 <p className='fun-stuff'>here are some other fun things:</p>
 
-                <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>
+                <p className='fun-stuff fun-links'>drawings</p>
                 <SRLWrapper style={{height: 40, width: 20}}>
+                <a className="a-img">
+                        <img className="art-img" src={require('../img/cat.png')} alt="a short comic about the cat distribution system" />
+                    </a>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/walk.jpg')} alt="a late-night walk with my childhood dog" />
+                    </a>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/fish.png')} alt="fun fact: I love fish" />
+                    </a>
+                    <a className="a-img">
+                        <img className="art-img" src={require('../img/portrait.jpg')} alt="a little portrait practice" />
+                    </a>
                     <a className="a-img">
                         <img className="art-img" src={require('../img/squint.jpg')} alt="sketches!" />
                     </a>
