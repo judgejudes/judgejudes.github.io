@@ -17,10 +17,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -28,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://judgejudes.github.io/the-thing",
   "browserslist": {
     "production": [
       ">0.2%",
