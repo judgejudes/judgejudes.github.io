@@ -84,26 +84,26 @@ export default class Bio extends Component {
                 {/* <span style={{ fontSize: 17 }}>(scroll down for fun things!)</span> */}
                 </p>
 
-                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1i-GIcNh6dRgkN8wyuhp3PnclpfwbpcLw/view" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
+                <h3 style={{ textAlign: 'center', color: 'red' }}><a href="https://drive.google.com/file/d/1yjs7AVnkuofjlx9elvaurLLateSjUWbI/view" style={{ textDecoration: 'underline wavy red', color: 'red' }}>resume</a></h3>
                 <p className='fun-stuff'>here are some other fun things:</p>
 
                 <p className='fun-stuff'><a className="fun-links" href="https://judyontheinter.com/art">drawings</a></p>
                 <SRLWrapper style={{height: 40, width: 20}}>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/squint.jpg').default} alt="sketches!" />
+                        <img className="art-img" src={require('../img/squint.jpg')} alt="sketches!" />
                     </a>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/tree.jpg').default} alt="spoopy tree" />
+                        <img className="art-img" src={require('../img/tree.jpg')} alt="spooky tree" />
                     </a>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/sketch2.JPG').default} alt="a doodle from design class" />
+                        <img className="art-img" src={require('../img/sketch2.JPG')} alt="a doodle from design class" />
                     </a>
                     <a className="a-img">
-                        <img className="art-img" src={require('../img/frog.png').default} alt="a frog that looks like a beignet" />
+                        <img className="art-img" src={require('../img/frog.png')} alt="a frog that looks like a beignet" />
                     </a>
-                    <a className="a-img">
-                        <img className="art-img" src={require('../img/roo.png').default} alt="rooster" />
-                    </a>
+                    {/* <a className="a-img">
+                        <img className="art-img" src={require('../img/roo.png')} alt="rooster" />
+                    </a> */}
                 
                     {/* <a className="a-img">
                         <img className="art-img" src={require('../img/rooster.png').default} alt="Umbrella" />
@@ -113,9 +113,9 @@ export default class Bio extends Component {
 
                 {/* <ImageGallery style={{ width: 20 }} items={images} /> */}
 
-                <p className='fun-stuff'><a className="fun-links" href="https://www.youtube.com/playlist?list=PL6EvsThciFxPyHfby4hFPCSXOoyUBu2MC">videos i love</a></p>
-                <p className='fun-stuff'><a className="fun-links" href="https://editor.p5js.org/judgejudes/sketches">p5.js sketches</a></p>
-                <p className='fun-stuff'><a className="fun-links" href="https://drive.google.com/file/d/1RX-L2koUsapYN7TsMlJZkQa6SotQbRTv/view?usp=sharing">a Picbreeder explainer zine</a></p>
+                {/* <p className='fun-stuff'><a className="fun-links" href="https://www.youtube.com/playlist?list=PL6EvsThciFxPyHfby4hFPCSXOoyUBu2MC">videos i love</a></p> */}
+                {/* <p className='fun-stuff'><a className="fun-links" href="https://editor.p5js.org/judgejudes/sketches">p5.js sketches</a></p> */}
+                {/* <p className='fun-stuff'><a className="fun-links" href="https://drive.google.com/file/d/1RX-L2koUsapYN7TsMlJZkQa6SotQbRTv/view?usp=sharing">a Picbreeder explainer zine</a></p> */}
 
                 <div className="links-flex">
                     <SocialIcon url="judysuhjunglee@gmail.com" network="gmail" />
